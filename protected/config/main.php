@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'BrainStorm',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -53,6 +53,7 @@ return array(
 		*/
 		// comment the following to NOT use a MySQL database
 		'db'=>array(
+			#'connectionString' => 'mysql:host=localhost;dbname=hanhanbi_p4_hanhan_biz',
 			'connectionString' => 'mysql:host=localhost;dbname=hanhanbi_p4_hanhan_biz',
 			'emulatePrepare' => true,
 			'username' => 'hanhanbi',
@@ -84,6 +85,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'webmaster@hanhan.biz',
 	),
 );
