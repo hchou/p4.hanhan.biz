@@ -11,19 +11,20 @@ return array(
 
 	// application components
 	'components'=>array(
+		// uncomment the following to use a SQLite database
+        /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
-		// uncomment the following to use a MySQL database
-		/*
+		*/
+		// comment the following to stop using the MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
+			'connectionString' => 'mysql:host=localhost;dbname=hanhanbi_p4_hanhan_biz',
 			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '',
+			'username' => 'hanhanbi',
+			'password' => 'nbTRXyRLtDpqRB8m',
 			'charset' => 'utf8',
 		),
-		*/
 		'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
