@@ -13,6 +13,7 @@ class m140114_040540_create_brainnie_brainnie_group_tables extends CDbMigration
             'email'              => 'string NOT NULL',
             'name_first'         => 'string NOT NULL',
             'name_last'          => 'string NOT NULL',
+            'password'           => 'string NOT NULL',
             'time_create'        => 'datetime DEFAULT NULL',
             'time_last_login'    => 'datetime DEFAULT NULL',
             'brainnie_group_id'  => 'int(1)',
