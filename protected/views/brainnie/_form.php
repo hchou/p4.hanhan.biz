@@ -37,18 +37,21 @@
 		<?php echo $form->error($model,'name_last'); ?>
 	</div>
 
+<!--
 	<div class="row">
 		<?php echo $form->labelEx($model,'salt'); ?>
 		<?php echo $form->textField($model,'salt',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'salt'); ?>
 	</div>
-
+-->
+    
 	<div class="row">
 		<?php echo $form->labelEx($model,'password'); ?>
 		<?php echo $form->passwordField($model,'password',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'password'); ?>
 	</div>
 
+<!--
 	<div class="row">
 		<?php echo $form->labelEx($model,'time_create'); ?>
 		<?php echo $form->textField($model,'time_create'); ?>
@@ -66,7 +69,8 @@
 		<?php echo $form->textField($model,'brainnie_group_id'); ?>
 		<?php echo $form->error($model,'brainnie_group_id'); ?>
 	</div>
-
+-->
+    
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
