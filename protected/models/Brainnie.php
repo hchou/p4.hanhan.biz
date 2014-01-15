@@ -35,10 +35,15 @@ class Brainnie extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
+            // Validate e-mail address
+            array('email', 'email'),
+            // Ensure unique e-mail used
+            array('email', 'unique'),
 			array('email, name_first, name_last, salt, password', 'required'),
 			array('brainnie_group_id', 'numerical', 'integerOnly'=>true),
-			array('email, name_first, name_last, salt, password', 'length', 'max'=>255),
-			array('time_create, time_last_login', 'safe'),
+			//array('email, name_first, name_last, salt, password', 'length', 'max'=>255),
+			array('email, name_first, name_last, password', 'length', 'max'=>255),
+			//array('time_create, time_last_login', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('brainnie_id, email, name_first, name_last, salt, password, time_create, time_last_login, brainnie_group_id', 'safe', 'on'=>'search'),
@@ -69,7 +74,7 @@ class Brainnie extends CActiveRecord
 			'name_last' => 'Last Name',
 			'salt' => 'Salt',
 			'password' => 'Password',
-			'time_create' => 'Time Create',
+			'time_create' => 'Time Created',
 			'time_last_login' => 'Time Last Login',
 			'brainnie_group_id' => 'Brainnie Group',
 		);
@@ -125,8 +130,6 @@ class Brainnie extends CActiveRecord
             'CTimestampBehavior' => array(
                 'class'             => 'zii.behaviors.CTimestampBehavior',
                 'createAttribute'   => 'time_create',
-                'updateAttribute'   => 'time_last_login',
-                'setUpdateOnCreate' => true,
             ),
         );
     }
