@@ -39,7 +39,7 @@ class Brainnie extends CActiveRecord
             array('email', 'email'),
             // Ensure unique e-mail used
             array('email', 'unique'),
-			array('email, name_first, name_last, salt, password', 'required'),
+			array('email, name_first, name_last, password', 'required'),
 			array('brainnie_group_id', 'numerical', 'integerOnly'=>true),
 			//array('email, name_first, name_last, salt, password', 'length', 'max'=>255),
 			array('email, name_first, name_last, password', 'length', 'max'=>255),
@@ -133,5 +133,20 @@ class Brainnie extends CActiveRecord
                 'createAttribute'   => 'time_create',
             ),
         );
+    }
+    
+    protected function afterValidate()
+    {
+        parent::afterValidate();
+        if (!$this->hasErrors())
+        {
+            $this->salt = sha1(time());
+            $this->password = $this->hashPassword($this->salt, $this->password);
+        }
+    }
+    
+    public function hashPassword($salt, $password)
+    {
+        return sha1($password);
     }
 }
