@@ -46,7 +46,8 @@ class Brainnie extends CActiveRecord
 			//array('time_create, time_last_login', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('brainnie_id, email, name_first, name_last, salt, password, time_create, time_last_login, brainnie_group_id', 'safe', 'on'=>'search'),
+//			array('brainnie_id, email, name_first, name_last, salt, password, time_create, time_last_login, brainnie_group_id', 'safe', 'on'=>'search'),
+			array('email, name_first, name_last, time_create, time_last_login', 'safe', 'on'=>'search'),
 		);
 	}
 
