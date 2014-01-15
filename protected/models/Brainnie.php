@@ -118,4 +118,16 @@ class Brainnie extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+    
+    public function behaviors()
+    {
+        return array(
+            'CTimestampBehavior' => array(
+             'class'             => 'zii.behaviors.CTimestampBehavior',
+             'createAttribute'   => 'time_create',
+             'updateAttribute'   => 'time_last_login',
+             'setUpdateOnCreate' => true,
+            ),
+        );
+    }
 }
