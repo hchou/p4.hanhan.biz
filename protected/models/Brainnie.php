@@ -123,10 +123,10 @@ class Brainnie extends CActiveRecord
     {
         return array(
             'CTimestampBehavior' => array(
-             'class'             => 'zii.behaviors.CTimestampBehavior',
-             'createAttribute'   => 'time_create',
-             'updateAttribute'   => 'time_last_login',
-             'setUpdateOnCreate' => true,
+                'class'             => 'zii.behaviors.CTimestampBehavior',
+                'createAttribute'   => 'time_create',
+                'updateAttribute'   => 'time_last_login',
+                'setUpdateOnCreate' => true,
             ),
         );
     }
