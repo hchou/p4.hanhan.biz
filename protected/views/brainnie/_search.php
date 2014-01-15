@@ -31,10 +31,12 @@
 		<?php echo $form->textField($model,'name_last',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
 
-	<div class="row">
+<!--
+    <div class="row">
 		<?php echo $form->label($model,'salt'); ?>
 		<?php echo $form->textField($model,'salt',array('size'=>60,'maxlength'=>255)); ?>
 	</div>
+-->
 
 	<div class="row">
 		<?php echo $form->label($model,'time_create'); ?>

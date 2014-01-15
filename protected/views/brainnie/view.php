@@ -25,8 +25,10 @@ $this->menu=array(
 		'email',
 		'name_first',
 		'name_last',
+        /*
 		'salt',
 		'password',
+		*/
 		'time_create',
 		'time_last_login',
 		'brainnie_group_id',

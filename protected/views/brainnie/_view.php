@@ -21,14 +21,18 @@
 	<?php echo CHtml::encode($data->name_last); ?>
 	<br />
 
+<!--
 	<b><?php echo CHtml::encode($data->getAttributeLabel('salt')); ?>:</b>
 	<?php echo CHtml::encode($data->salt); ?>
 	<br />
+-->
 
+<!--
 	<b><?php echo CHtml::encode($data->getAttributeLabel('password')); ?>:</b>
 	<?php echo CHtml::encode($data->password); ?>
 	<br />
-
+-->
+    
 	<b><?php echo CHtml::encode($data->getAttributeLabel('time_create')); ?>:</b>
 	<?php echo CHtml::encode($data->time_create); ?>
 	<br />
