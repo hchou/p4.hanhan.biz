@@ -2,11 +2,13 @@
 
 <article>
 
+    <h1><?php echo 'hello world!'; ?></h1>
+
     <h3>+1 Features</h3>
     <h4>User Profile Update</h4>
 
     <ul>
-	    <li>Verify 'current password' is correct before proceeding</li>
+	    <li>Verify 'CURRENT PASSWORD' is correct before proceeding</li>
 	    <li>Verify 'new email' isn't already in DB</li>
 	    <li>Update only modified user information</li>
     </ul>
