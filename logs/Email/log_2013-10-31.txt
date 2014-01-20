@@ -1,0 +1,210 @@
+2013-10-31 0:05:16 - INFO --> -------------------------- 
+2013-10-31 0:05:16 - INFO --> Controller/Method: posts/index 
+2013-10-31 0:05:16 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 0:05:16 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 0:05:16 - INFO --> CC:  
+2013-10-31 0:05:16 - INFO --> BCC:  
+2013-10-31 0:05:16 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 0:05:16 - INFO --> Body: <h2>SQL Error</h2> SELECT
+                  posts.post_id,
+                  posts.content,
+                  posts.created,
+                  posts.user_id AS post_user_id,
+                  users_users.user_id AS follower_id,
+                  users.first_name,
+                  users.last_name
+   
+2013-10-31 0:09:48 - INFO --> -------------------------- 
+2013-10-31 0:09:48 - INFO --> Controller/Method: users/p_login 
+2013-10-31 0:09:48 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 0:09:48 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 0:09:48 - INFO --> CC:  
+2013-10-31 0:09:48 - INFO --> BCC:  
+2013-10-31 0:09:48 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 0:09:48 - INFO --> Body: <h2>SQL Error</h2> SELECT email
+                       FROM users
+                       WHERE email = 'l.silvertongue@example.com' No database selected<h2>Query History</h2>0 = SELECT email
+                       FROM users
+                       WHERE email = 'l.silvertongue@example.com'<br><h2>SE 
+2013-10-31 0:12:27 - INFO --> -------------------------- 
+2013-10-31 0:12:27 - INFO --> Controller/Method: users/p_login 
+2013-10-31 0:12:27 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 0:12:27 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 0:12:27 - INFO --> CC:  
+2013-10-31 0:12:27 - INFO --> BCC:  
+2013-10-31 0:12:27 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 0:12:27 - INFO --> Body: <h2>SQL Error</h2> SELECT email
+                       FROM users
+                       WHERE email = '' No database selected<h2>Query History</h2>0 = SELECT email
+                       FROM users
+                       WHERE email = ''<br><h2>SERVER</h2><pre>Array
+(
+    [DOCUMENT_ROOT] => /home/h 
+2013-10-31 0:12:54 - INFO --> -------------------------- 
+2013-10-31 0:12:54 - INFO --> Controller/Method: users/p_signup 
+2013-10-31 0:12:54 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 0:12:54 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 0:12:54 - INFO --> CC:  
+2013-10-31 0:12:54 - INFO --> BCC:  
+2013-10-31 0:12:54 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 0:12:54 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users SET first_name = 'Hans', last_name = 'Chou', email = 'h.chou@live.com', password = '4d47e2beb30a115ff1d3ba30b19a1dac964c6d52', created = '1383192774', modified = '1383192774', token = '27022da533e63ce2d06d51021e3ca6a3797b90cd' No database selected<h2>Query Histor 
+2013-10-31 10:04:40 - INFO --> -------------------------- 
+2013-10-31 10:04:40 - INFO --> Controller/Method: index/index 
+2013-10-31 10:04:40 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:04:40 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:04:40 - INFO --> CC:  
+2013-10-31 10:04:40 - INFO --> BCC:  
+2013-10-31 10:04:40 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:04:40 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-10-31 10:04:47 - INFO --> -------------------------- 
+2013-10-31 10:04:47 - INFO --> Controller/Method: index/index 
+2013-10-31 10:04:47 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:04:47 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:04:47 - INFO --> CC:  
+2013-10-31 10:04:47 - INFO --> BCC:  
+2013-10-31 10:04:47 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:04:47 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-10-31 10:05:00 - INFO --> -------------------------- 
+2013-10-31 10:05:00 - INFO --> Controller/Method: index/index 
+2013-10-31 10:05:00 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:05:00 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:05:00 - INFO --> CC:  
+2013-10-31 10:05:00 - INFO --> BCC:  
+2013-10-31 10:05:00 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:05:00 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-10-31 10:05:09 - INFO --> -------------------------- 
+2013-10-31 10:05:09 - INFO --> Controller/Method: index/index 
+2013-10-31 10:05:09 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:05:09 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:05:09 - INFO --> CC:  
+2013-10-31 10:05:09 - INFO --> BCC:  
+2013-10-31 10:05:09 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:05:09 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-10-31 10:08:01 - INFO --> -------------------------- 
+2013-10-31 10:08:01 - INFO --> Controller/Method: index/index 
+2013-10-31 10:08:01 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:08:01 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:08:01 - INFO --> CC:  
+2013-10-31 10:08:01 - INFO --> BCC:  
+2013-10-31 10:08:01 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:08:01 - INFO --> Body: <h2>SQL Error</h2> SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1 No database selected<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = '49901ff17a13f23c51439877c095b515d30c3c72'
+					LIMIT 1<br><h2>SERVER</h2><pre>Array
+(
+     
+2013-10-31 10:08:24 - INFO --> -------------------------- 
+2013-10-31 10:08:24 - INFO --> Controller/Method: users/p_login 
+2013-10-31 10:08:24 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:08:24 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:08:24 - INFO --> CC:  
+2013-10-31 10:08:24 - INFO --> BCC:  
+2013-10-31 10:08:24 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:08:24 - INFO --> Body: <h2>SQL Error</h2> SELECT email
+                       FROM users
+                       WHERE email = 'l.silvertongue@example.com' No database selected<h2>Query History</h2>0 = SELECT email
+                       FROM users
+                       WHERE email = 'l.silvertongue@example.com'<br><h2>SE 
+2013-10-31 10:08:41 - INFO --> -------------------------- 
+2013-10-31 10:08:41 - INFO --> Controller/Method: users/p_signup 
+2013-10-31 10:08:41 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:08:41 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:08:41 - INFO --> CC:  
+2013-10-31 10:08:41 - INFO --> BCC:  
+2013-10-31 10:08:41 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:08:41 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users SET first_name = 'H.', last_name = 'Chou', email = 'h.chou@live.com', password = '4d47e2beb30a115ff1d3ba30b19a1dac964c6d52', created = '1383228521', modified = '1383228521', token = '7c82204db4ad9a7895e053c95d7a63ad5fb54837' No database selected<h2>Query History< 
+2013-10-31 10:11:54 - INFO --> -------------------------- 
+2013-10-31 10:11:54 - INFO --> Controller/Method: users/p_login 
+2013-10-31 10:11:54 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:11:54 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:11:54 - INFO --> CC:  
+2013-10-31 10:11:54 - INFO --> BCC:  
+2013-10-31 10:11:54 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:11:54 - INFO --> Body: <h2>SQL Error</h2> SELECT email
+                       FROM users
+                       WHERE email = 'l.silvertongue@example.com' No database selected<h2>Query History</h2>0 = SELECT email
+                       FROM users
+                       WHERE email = 'l.silvertongue@example.com'<br><h2>SE 
+2013-10-31 10:12:12 - INFO --> -------------------------- 
+2013-10-31 10:12:12 - INFO --> Controller/Method: users/p_signup 
+2013-10-31 10:12:12 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 10:12:12 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 10:12:12 - INFO --> CC:  
+2013-10-31 10:12:12 - INFO --> BCC:  
+2013-10-31 10:12:12 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 10:12:12 - INFO --> Body: <h2>SQL Error</h2> INSERT INTO users SET first_name = 'H.', last_name = 'Chou', email = 'h.chou@live.com', password = '4d47e2beb30a115ff1d3ba30b19a1dac964c6d52', created = '1383228732', modified = '1383228732', token = 'bf9c882e7046c73f858f6258060b68e1ab284029' No database selected<h2>Query History< 
+2013-10-31 15:54:50 - INFO --> -------------------------- 
+2013-10-31 15:54:50 - INFO --> Controller/Method: users/p_profile_update 
+2013-10-31 15:54:50 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 15:54:50 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 15:54:50 - INFO --> CC:  
+2013-10-31 15:54:50 - INFO --> BCC:  
+2013-10-31 15:54:50 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 15:54:50 - INFO --> Body: <h2>SQL Error</h2> UPDATE users SE WHERE user_id = '1' You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE user_id = '1'' at line 1<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'c203427d8 
+2013-10-31 15:55:03 - INFO --> -------------------------- 
+2013-10-31 15:55:03 - INFO --> Controller/Method: users/p_profile_update 
+2013-10-31 15:55:03 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 15:55:03 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 15:55:03 - INFO --> CC:  
+2013-10-31 15:55:03 - INFO --> BCC:  
+2013-10-31 15:55:03 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 15:55:03 - INFO --> Body: <h2>SQL Error</h2> UPDATE users SE WHERE user_id = '1' You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE user_id = '1'' at line 1<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'c203427d8 
+2013-10-31 15:55:34 - INFO --> -------------------------- 
+2013-10-31 15:55:34 - INFO --> Controller/Method: users/p_profile_update 
+2013-10-31 15:55:34 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 15:55:34 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 15:55:34 - INFO --> CC:  
+2013-10-31 15:55:34 - INFO --> BCC:  
+2013-10-31 15:55:34 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 15:55:34 - INFO --> Body: <h2>SQL Error</h2> UPDATE users SE WHERE user_id = '1' You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE user_id = '1'' at line 1<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'c203427d8 
+2013-10-31 15:55:46 - INFO --> -------------------------- 
+2013-10-31 15:55:46 - INFO --> Controller/Method: users/p_profile_update 
+2013-10-31 15:55:46 - INFO --> From: Blubber (webmaster@p2.hanhan.biz) 
+2013-10-31 15:55:46 - INFO --> To: Blubber (hchou@fas.harvard.edu),  
+2013-10-31 15:55:46 - INFO --> CC:  
+2013-10-31 15:55:46 - INFO --> BCC:  
+2013-10-31 15:55:46 - INFO --> Subject: Blubber SQL Error 
+2013-10-31 15:55:46 - INFO --> Body: <h2>SQL Error</h2> UPDATE users SE WHERE user_id = '1' You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE user_id = '1'' at line 1<h2>Query History</h2>0 = SELECT *
+					FROM users
+					WHERE token = 'c203427d8 
