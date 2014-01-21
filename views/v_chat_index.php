@@ -14,7 +14,7 @@
     <div id="chat_main_box">
         <!-- chat_online displays number and names of users logged on to Chat-->
         <div id="chat_online">
-            <span id="chat_counter_heading">Online Users: <span id="chat_counter">0</span></span>
+            <span id="chat_counter_heading">ONLINE USERS:</span>
             <ul id="chat_online_list">
             </ul>
         </div>
