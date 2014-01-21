@@ -1,0 +1,64 @@
+#chat_box, #chat_messages_box, #chat_input {
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 5px;
+}
+
+#chat_online {
+    float: left;
+}
+
+#chat_online_list {
+    list-style: circle;
+    padding: 5px;
+}
+
+
+#chat_main_box {
+    height: 100%;
+    width: 100%;
+}
+
+#chat_input_box {
+    margin-top: 10px;
+}
+
+#chat_input {
+    float: left;
+    width: 90%;
+}
+
+#chat_box {
+    height: 80%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#chat_counter_heading {
+    padding: 5px;
+}
+
+#chat_combo_box {
+    float: right;
+    height: 100%;
+    width: 70%;
+}
+
+#chat_messages_box { 
+    float: left;
+    width: 100%;
+    height: 95%;
+    overflow: auto;
+    padding: 5px;
+    position: relative;
+}
+
+#chat_messages {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#chat_button {
+    float: right;
+    width: 9%;
+}
