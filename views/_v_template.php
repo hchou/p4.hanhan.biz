@@ -18,7 +18,7 @@
 
 	<!-- jquery.validate.params -->
 	<script type="text/javascript" src="/js/jquery.validate.params.js"></script>
-					
+      
 	<!-- Controller Specific JS/CSS -->
 	<?php if(isset($client_files_head)) echo $client_files_head; ?>
 	
@@ -35,9 +35,10 @@
         <!-- Menu for users who are logged in -->
         <?php if ($user): ?>
             <a href='/users/profile'>My Profile</a>
-	    <a href='/posts'>Read</a>
-	    <a href='/posts/add'>Add</a>
-	    <a href='/posts/users'>Users</a>
+            <a href='/chat'>Chat</a>
+            <a href='/posts'>Read</a>
+            <a href='/posts/add'>Add</a>
+            <a href='/posts/users'>Users</a>
 
         <!-- Menu options for users who are not logged in -->
         <?php else: ?>
