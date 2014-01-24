@@ -1,3 +1,7 @@
+#myname {
+    display: none;
+}
+
 #chat_box, #chat_messages_box, #chat_input {
     border: 1px solid rgb(153, 153, 153);
     border-radius: 5px;
