@@ -60,7 +60,7 @@ class posts_controller extends base_controller {
     
         # Set up the View
         $this->template->content = View::instance('v_posts_index');
-        $this->template->title   = "All Posts";
+        $this->template->title   = "Interactive Chat";
     
         # Query
         $q = 'SELECT
