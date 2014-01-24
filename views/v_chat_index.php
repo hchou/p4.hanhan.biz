@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/css/chat.css">
-<script src="//js.pusherapp.com/1.9/pusher.min.js" type="text/javascript"></script>
 
+<script src="//js.pusherapp.com/1.9/pusher.min.js" type="text/javascript"></script>
 
 <h1>Interactive Chat</h1>
 
@@ -12,7 +12,7 @@
     
     <!-- Interactive chat DIVs -->
     <div id="chat_main_box">
-        <!-- chat_online displays number and names of users logged on to Chat-->
+        <!-- chat_online displays names of users logged on to Chat-->
         <div id="chat_online">
             <span id="chat_counter_heading">ONLINE USERS:</span>
             <ul id="chat_online_list">
